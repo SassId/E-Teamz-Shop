@@ -1,0 +1,40 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* FONTS */
+  @import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Mina:wght@400;700&display=swap");
+  
+  /* GENERAL */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: "Exo 2";
+    background-color: #ede7e1;
+    text-transform: capitalize;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  img {
+    width: 300px;
+    height: 400px;
+  }
+
+/* MAIN */
+.products {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.line1, .line2 {
+    border: solid;
+}

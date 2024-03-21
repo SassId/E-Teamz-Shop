@@ -25,33 +25,34 @@ a:hover {
     color: aliceblue;
 }
 
-/* HEADER */
-header {
-  background-color: #76dbf5;
-  padding: 20px 40px;
-  display: flex;
-  justify-content: space-between;
-}
-
-nav {
-  display: flex;
-  gap: 25px;
-}
-
-.name-site {
-  color: #454446;
-  font-size: 27px;
-  text-decoration: none;
-}
-
-.icon {
-  font-size: 200%;
-  color: #454446;
-}
-
-.icon:hover {
-  color: aliceblue;
-}
+  /* HEADER */
+  header {
+    background-color: black ;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav {
+    display: flex;
+    gap: 25px;
+  }
+  
+  .name-site {
+    color: white;
+    font-size: 27px;
+    text-decoration: none;
+  }
+  
+  .icon {
+    font-size: 200%;
+    color: white;
+  }
+  
+  .icon:hover {
+    color: #7A2126;
+    transition: color 1s;
+  }
 
 /* FOOTER */
 
