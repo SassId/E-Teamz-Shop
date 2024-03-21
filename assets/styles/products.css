@@ -50,7 +50,7 @@
     justify-content: space-around;
 }
 
-.prod1, .prod2, .prod3, .prod4, .prod5, .prod6 {
+.prod {
     /* border: solid; */
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.384);
     padding: 20px;
@@ -58,21 +58,18 @@
     border-radius: 20px;
 }
 
-.prod1:hover {
+.prod:hover {
     transform: scale(1.2);
+    animation: move-up 2s ease-in 1s;
 }
-.prod2:hover {
-    transform: scale(1.2);
-}
-.prod3:hover {
-    transform: scale(1.2);
-}
-.prod4:hover {
-    transform: scale(1.2);
-}
-.prod5:hover {
-    transform: scale(1.2);
-}
-.prod6:hover {
-    transform: scale(1.2);
+
+/* ANIMATIONS */
+
+@keyframes move-up {
+    from {
+        transform: translate(0);
+    }
+    to {
+        transform: translate(0, 20px);
+    }
 }
