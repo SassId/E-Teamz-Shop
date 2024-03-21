@@ -1,0 +1,46 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Mina:wght@400;700&display=swap");
+
+/* GENERAL */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Exo 2";
+}
+
+/* HEADER */
+header {
+  background-color: #76dbf5;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  gap: 25px;
+}
+
+.name-site {
+  color: #454446;
+  font-size: 27px;
+  text-decoration: none;
+}
+
+.icon {
+  font-size: 200%;
+  color: #454446;
+}
+
+.icon:hover {
+  color: aliceblue;
+}
