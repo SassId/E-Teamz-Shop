@@ -31,18 +31,6 @@ h3 {
   text-transform: capitalize;}
 }
 
-header{
-  background-color: #000000;
-  padding: 20px  40px;
-  display: flex;
-  justify-content: space-between;
-  position: sticky;
-}
-
-nav{
-  display: flex;
-  gap: 25px;
-}
 
 .brand{
   color: #7A2126;
@@ -290,6 +278,7 @@ button {
   color: white;
   background-color: rgb(0, 0, 0);
   font-size: 15px;
+  font-family: inherit;
 }
 
 button:hover{
@@ -297,26 +286,6 @@ button:hover{
   color: aliceblue;
   transition: 1s;
   transform: scale3d(1.1);
-}
-
-
-/* SECTION: POPULAR PRODUCTS  */
-.popular-products {
-  min-height: 400px;
-  width: 100%;
-  margin: 20px auto;
-  padding: 20px;
-  /* box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.137); */
-  background-color: #c7f5ef;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-radius: 30px;
-  border: none;
-  margin-top: 20px;
-  font-size: 12px;
-  text-transform: uppercase;
 }
 
 
@@ -349,64 +318,4 @@ button:hover{
 
 .parent-delivery img {
   width: 80px;
-}
-
-
-.footer {
-  background-color: black;
-  display: flex;
-  justify-content: space-around;
-  align-items: start;
-  gap: 150px;
-  /* flex-wrap: wrap; */
-  color: aliceblue;
-  padding: 50px;
-  ul{
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 6px;
-    padding-top: 15px;
-  }
-}
-
-.copyright{
-  text-align: center;
-  background-color: black;
-  color: aliceblue;
-  padding-block-end: 10px;
-  font-size: 12px;
-}
-
-.logo{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 40px;
-  
-  img{
-    width: 25px;
-    height: 25px;
-    border-radius: 8px;
-    object-fit: cover;
-    margin: 10px;
-  }
-
-  a{
-    text-decoration: none;
-    color: aliceblue;
-  }
-  a:hover{
-    text-decoration: underline;
-    color: #7A2126;
-  }
-}
-
-.logo-img{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 25px;
-  padding-top: 7px;
 }
