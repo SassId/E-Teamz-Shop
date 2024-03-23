@@ -43,6 +43,7 @@
     border-radius: 30px;
     background-color: black;
     color: white;
+    font-family: "Exo 2", Arial, sans-serif;
   }
 
   .products button:hover {
