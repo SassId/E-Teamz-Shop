@@ -40,11 +40,16 @@
     border-radius: 30px;
     background-color: black;
     color: white;
-    font-family: "Exo 2", Arial, sans-serif;
+    font-family: inherit;
+    border: solid 1px black;
   }
 
   .products button:hover {
     transform: scale(1.2);
+  }
+
+  .products button:active {
+    color: #7A2126;
   }
 
 /* MAIN */

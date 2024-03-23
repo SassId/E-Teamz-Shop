@@ -355,10 +355,10 @@ button:hover{
 .footer {
   background-color: black;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: start;
   gap: 150px;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   color: aliceblue;
   padding: 50px;
   ul{
@@ -382,13 +382,15 @@ button:hover{
 .logo{
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
+  gap: 40px;
   
   img{
     width: 25px;
     height: 25px;
     border-radius: 8px;
     object-fit: cover;
+    margin: 10px;
   }
 
   a{
@@ -403,7 +405,7 @@ button:hover{
 
 .logo-img{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   gap: 25px;
   padding-top: 7px;
