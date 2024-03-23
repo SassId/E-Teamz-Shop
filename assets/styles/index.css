@@ -6,14 +6,12 @@
   box-sizing: border-box;
 }
 
-
-
 body {
   font-family: "Exo 2";
   background-color: rgba(26, 24, 24, 0.027);
   color: #161616;
-  font-size: 16px;
-  line-height: 1.38462;
+  font-size: 16px;       
+  /* line-height: 1.38462; */
   letter-spacing: 1.6;
 }
 
@@ -36,31 +34,6 @@ h3 {
   color: #7A2126;
 }
 
-.name-site{
-  color: aliceblue;
-  font-size: 150%;
-  text-decoration: none;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-.name-site:hover{
-  color: #7A2126;
-  transition: 1s;
-  
-}
-
-.icon{
-  font-size: 150%;
-  color: aliceblue;
-}
-
-.icon:hover{
-  transition: 1s;
-  color: #7A2126;
-
-
-}
 
 .img {
   width: auto;
