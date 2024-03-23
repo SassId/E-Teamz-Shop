@@ -34,6 +34,21 @@
     text-align: center;
   }
 
+  .products button {
+    width: fit-content;
+    margin: auto ;
+    margin-top: 30px;
+    text-transform: capitalize;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+  }
+
+  .products button:hover {
+    transform: scale(1.2);
+  }
+
 /* MAIN */
 .products {
     display: flex;
@@ -51,6 +66,8 @@
 }
 
 .prod {
+    display: flex;
+    flex-direction: column;
     /* border: solid; */
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.384);
     padding: 20px;
@@ -65,11 +82,11 @@
 
 /* ANIMATIONS */
 
-@keyframes move-up {
+/* @keyframes move-up {
     from {
         transform: translate(0);
     }
     to {
         transform: translate(0, 20px);
     }
-}
+} */
