@@ -4,7 +4,11 @@ This is a Practice Project done in `htlm`, `css` and `js` and covering the **Scr
 
 My team and i made this showcase website largely inspired by an existing one in which we added our personal touches.
 
+---------------------------
 
+[Click Here](https://sassid.github.io/E-Teamz-Shop/) to check it out now ! 😁
+
+---------------------------
 ![index preview](./preview/index-preview.png)
 
 ![products preview](./preview/products-preview.png)
