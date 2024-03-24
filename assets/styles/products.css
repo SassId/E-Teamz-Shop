@@ -84,13 +84,6 @@
     animation: move-up 2s ease-in 1s;
 }
 
-/* ANIMATIONS */
-
-/* @keyframes move-up {
-    from {
-        transform: translate(0);
-    }
-    to {
-        transform: translate(0, 20px);
-    }
-} */
+#hidden-prod1 {
+  /* display: none; */
+}
