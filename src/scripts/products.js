@@ -1,18 +1,11 @@
-const hiddenSection = document.getElementById('hidden-prod1');
-console.log(hiddenSection);
-const prod = document.querySelector('.prod');
-console.log(prod);
+const hiddenSection1 = document.getElementById('hidden-prod1');
+console.log(hiddenSection1);
+const details1 = document.getElementById('details1');
 
-prod.addEventListener('click', () => {
-    if (hiddenSection.style.display == 'none') {
-        hiddenSection.style.display = 'block'
+details1.addEventListener('click', () => {
+    if (hiddenSection1.style.display == 'none') {
+        hiddenSection1.style.display = 'block'
     } else {
-        hiddenSection.style.display = 'none'
-    }
-})
-
-.addEventListener('click', () => {
-    if (hiddenSection.style.display == 'block') {
-        hiddenSection.style.display = 'none'
+        hiddenSection1.style.display = 'none'
     }
 })
