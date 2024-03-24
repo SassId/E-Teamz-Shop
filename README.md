@@ -1,4 +1,4 @@
-#Informations about this project :
+# Informations about this project :
 
 This is a Practice Project done in htlm, css and js and covering the Scrum Method.
 
