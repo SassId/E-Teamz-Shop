@@ -18,4 +18,4 @@ My team and i made this showcase website largely inspired by an existing one in 
 
 ---------------------------
 
-_All pictures used belong to their righful owners._
+_All pictures used belong to their rightful owners._
